@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        var occupation = "Developer"
 
         open class player(val name: String, val gender: String, val power: Int) {
             open fun attack() {
