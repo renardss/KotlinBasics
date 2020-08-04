@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var occupation = "Developer"
+        var name = "Renards"
+
 
         open class player(val name: String, val gender: String, val power: Int) {
             open fun attack() {
