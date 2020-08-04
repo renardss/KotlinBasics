@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinBasics</string>
+    <string name="hello_world_text">0</string>
+    <string name="Random_Heading">This is a random number from 0 to %1d</string>
+</resources>
